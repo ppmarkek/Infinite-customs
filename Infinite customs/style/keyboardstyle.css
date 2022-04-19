@@ -1,0 +1,157 @@
+*
+{
+    scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;	
+}
+body{
+    background: #fff;
+    justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+header{
+    position: relative;
+    left: 0;
+    top: -20px;
+    padding: 0px 70px;
+    display: flex;
+    z-index: 10000;
+}
+header .logo img{
+
+    width: 150px;
+    height: 150px;
+    letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end; 
+    align-items: center;
+}
+header ul li
+{
+	list-style: none;
+	margin-left: 20px;
+}
+header ul li a
+{
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #000;
+	border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+	background: #000;
+	color: #fff;
+}
+.imgkey img{
+    width: 1440px;
+}
+.keyboardsize{
+
+    display: flex;
+    justify-content: center;
+	align-items: flex-start;
+    padding: 50px 0px;
+    margin-left: 0px;
+}
+.keyboardsize .size60{
+    padding: 300px 140px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(55,76,124,1) -100%,
+     rgba(57,81,126,1) -100%, rgba(114,96,136,1) -80%,
+     rgba(73,236,162,1) 0%, rgba(94,13,167,1) 0%,
+      rgba(222,64,209,1) 100%);
+      transition: 0.5s;
+}
+.keyboardsize .size60 a{
+    padding: 20px 50px;
+    border-radius: 30px;
+    background: #03a9f4;
+}
+.keyboardsize .size60:hover a{
+    background: #ff568f;
+}
+.keyboardsize .size60:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+.keyboardsize .size65{
+    padding: 250px 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background: linear-gradient(180deg, rgba(55,76,124,1) -100%,
+     rgba(57,81,126,1) -100%, rgba(114,96,136,1) -80%,
+     rgba(73,236,162,1) 0%,rgba(94,13,167,1) 0%,
+     rgba(22,0,113,1) 0%, rgba(64,175,222,1) 100%);
+     transition: 0.5s;
+}
+.keyboardsize .size65 a{
+    padding: 20px 50px;
+    border-radius: 30px;
+    background: #03a9f4;
+}
+.keyboardsize .size65:hover a{
+    background: #ff568f;
+}
+.keyboardsize .size65:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+.keyboardsize .size80{
+    margin-top: 640px;
+    margin-left: -1111px;
+    padding: 300px 140px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255,0,174,1) 0%,
+     rgba(164,0,255,1) 100%);
+    transition: 0.5s;
+}
+.keyboardsize .size80 a{
+    padding: 20px 50px;
+    border-radius: 30px;
+    background: #03a9f4;
+}
+.keyboardsize .size80:hover a{
+    background: #ff568f;
+}
+.keyboardsize .size80:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+.keyboardsize .size100{
+    margin-top: 540px;
+    margin-left: 21px;
+    padding: 350px 196px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(0,212,255,1) 0%,
+     rgba(164,0,255,1) 100%);
+    transition: 0.5s;
+}
+.keyboardsize .size100 a{
+    padding: 20px 50px;
+    border-radius: 30px;
+    background: #03a9f4;
+}
+.keyboardsize .size100 .text2{
+    
+    text-decoration: none;
+    color:#fff;
+}
+.keyboardsize .size100:hover a{
+    background: #ff568f;
+}
+.keyboardsize .size100:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+.keyboardsize .text{
+    color:#fff;
+    text-decoration: none;
+}
